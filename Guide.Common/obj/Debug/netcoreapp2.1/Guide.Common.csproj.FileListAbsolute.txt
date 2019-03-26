@@ -1,0 +1,12 @@
+C:\MyProjects\Guide\Guide.Common\bin\Debug\netcoreapp2.1\Guide.Common.deps.json
+C:\MyProjects\Guide\Guide.Common\bin\Debug\netcoreapp2.1\Guide.Common.dll
+C:\MyProjects\Guide\Guide.Common\bin\Debug\netcoreapp2.1\Guide.Common.pdb
+C:\MyProjects\Guide\Guide.Common\obj\Debug\netcoreapp2.1\Guide.Common.csproj.CoreCompileInputs.cache
+C:\MyProjects\Guide\Guide.Common\obj\Debug\netcoreapp2.1\Guide.Common.AssemblyInfoInputs.cache
+C:\MyProjects\Guide\Guide.Common\obj\Debug\netcoreapp2.1\Guide.Common.AssemblyInfo.cs
+C:\MyProjects\Guide\Guide.Common\obj\Debug\netcoreapp2.1\Guide.Common.dll
+C:\MyProjects\Guide\Guide.Common\obj\Debug\netcoreapp2.1\Guide.Common.pdb
+C:\MyProjects\Guide\Guide.Common\obj\Debug\netcoreapp2.1\Guide.Common.csprojAssemblyReference.cache
+C:\MyProjects\Guide\Guide.Common\bin\Debug\netcoreapp2.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\MyProjects\Guide\Guide.Common\bin\Debug\netcoreapp2.1\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\MyProjects\Guide\Guide.Common\obj\Debug\netcoreapp2.1\Guide.Common.csproj.CopyComplete

@@ -1,0 +1,325 @@
+2019-02-14 08:42:07.6612|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-14 08:42:07.7777|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 118.8691ms 200 
+2019-02-14 08:44:07.1518|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-14 08:44:07.2390|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 90.8793ms 200 
+2019-02-14 08:47:20.1874|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-14 08:47:20.2749|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 90.6258ms 200 
+2019-02-14 09:51:32.8042|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-14 09:51:32.8965|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 90.9834ms 200 
+2019-02-14 09:55:52.4425|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-14 09:55:52.5313|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 88.9749ms 200 
+2019-02-14 10:03:43.2044|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-14 10:03:43.2939|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 90.2674ms 200 
+2019-02-14 10:06:29.4121|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 PUT http://localhost:58421/api/products/ application/json 58
+2019-02-14 10:06:29.4778|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Put", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Put (Guide.API)
+2019-02-14 10:06:29.6146|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Put (Guide.API) with arguments (Guide.Application.CQRS.Command.ProductChangePriceCommand) - Validation state: Valid
+2019-02-14 10:06:31.3459|INFO|Guide.Application.CQRS.Command.ProductChangePriceCommand|RequestType: _ProductChangePriceCommand_02/14/2019 07:06:31
+2019-02-14 10:06:31.4864|WARN|Microsoft.EntityFrameworkCore.Model.Validation|No type was specified for the decimal column 'ProductPrice' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+2019-02-14 10:06:31.5120|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.4-rtm-31024 initialized 'GuideContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-02-14 10:06:31.5771|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [p].[Id], [p].[Code], [p].[CreatedBy], [p].[CreatedOn], [p].[ModifiedBy], [p].[ModifiedOn], [p].[Name], [p].[ProductPrice], [p].[StockAmount]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__id_0
+2019-02-14 10:06:44.1750|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (3ms) [Parameters=[@p8='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (DbType = Int32), @p2='?' (DbType = DateTime2), @p3='?' (DbType = Int32), @p4='?' (DbType = DateTime2), @p9='?' (DbType = DateTime2), @p5='?' (Size = 4000), @p6='?' (DbType = Decimal), @p7='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Products] SET [Code] = @p0, [CreatedBy] = @p1, [CreatedOn] = @p2, [ModifiedBy] = @p3, [ModifiedOn] = @p4, [Name] = @p5, [ProductPrice] = @p6, [StockAmount] = @p7
+WHERE [Id] = @p8 AND [ModifiedOn] IS NULL;
+SELECT @@ROWCOUNT;
+2019-02-14 10:06:45.7747|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Guide.API.Controllers.ProductController.Put (Guide.API), returned result Microsoft.AspNetCore.Mvc.CreatedAtRouteResult in 16151.0989ms.
+2019-02-14 10:06:45.7856|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'Guide.Application.ViewModel.CommandResponses.Product.ProductCreateView'.
+2019-02-14 10:06:45.8005|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Guide.API.Controllers.ProductController.Put (Guide.API) in 16315.0402ms
+2019-02-14 10:06:45.8177|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 16403.258ms 201 application/json; charset=utf-8
+2019-02-14 10:07:18.1022|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-14 10:07:18.1918|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 92.3328ms 200 
+2019-02-14 10:07:42.9179|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 PUT http://localhost:58421/api/products/ application/json 58
+2019-02-14 10:07:42.9785|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Put", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Put (Guide.API)
+2019-02-14 10:07:43.1153|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Put (Guide.API) with arguments (Guide.Application.CQRS.Command.ProductChangePriceCommand) - Validation state: Valid
+2019-02-14 10:07:45.4556|INFO|Guide.Application.CQRS.Command.ProductChangePriceCommand|RequestType: _ProductChangePriceCommand_02/14/2019 07:07:45
+2019-02-14 10:07:45.5781|WARN|Microsoft.EntityFrameworkCore.Model.Validation|No type was specified for the decimal column 'ProductPrice' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+2019-02-14 10:07:45.6027|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.4-rtm-31024 initialized 'GuideContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-02-14 10:07:45.6642|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [p].[Id], [p].[Code], [p].[CreatedBy], [p].[CreatedOn], [p].[ModifiedBy], [p].[ModifiedOn], [p].[Name], [p].[ProductPrice], [p].[StockAmount]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__id_0
+2019-02-14 10:07:53.5035|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@p8='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (DbType = Int32), @p2='?' (DbType = DateTime2), @p3='?' (DbType = Int32), @p4='?' (DbType = DateTime2), @p9='?' (DbType = DateTime2), @p5='?' (Size = 4000), @p6='?' (DbType = Decimal), @p7='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Products] SET [Code] = @p0, [CreatedBy] = @p1, [CreatedOn] = @p2, [ModifiedBy] = @p3, [ModifiedOn] = @p4, [Name] = @p5, [ProductPrice] = @p6, [StockAmount] = @p7
+WHERE [Id] = @p8 AND [ModifiedOn] IS NULL;
+SELECT @@ROWCOUNT;
+2019-02-14 10:07:54.8969|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Guide.API.Controllers.ProductController.Put (Guide.API), returned result Microsoft.AspNetCore.Mvc.CreatedAtRouteResult in 11775.354ms.
+2019-02-14 10:07:54.8969|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'Guide.Application.ViewModel.CommandResponses.Product.ProductCreateView'.
+2019-02-14 10:07:54.9218|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Guide.API.Controllers.ProductController.Put (Guide.API) in 11933.1712ms
+2019-02-14 10:07:54.9404|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 12021.1754ms 201 application/json; charset=utf-8
+2019-02-14 10:09:22.3038|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 PUT http://localhost:58421/api/products/ application/json 58
+2019-02-14 10:09:22.3038|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Put", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Put (Guide.API)
+2019-02-14 10:09:22.3146|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Put (Guide.API) with arguments (Guide.Application.CQRS.Command.ProductChangePriceCommand) - Validation state: Valid
+2019-02-14 10:09:23.3665|INFO|Guide.Application.CQRS.Command.ProductChangePriceCommand|RequestType: _ProductChangePriceCommand_02/14/2019 07:09:23
+2019-02-14 10:09:23.3665|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.4-rtm-31024 initialized 'GuideContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-02-14 10:09:23.3665|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [p].[Id], [p].[Code], [p].[CreatedBy], [p].[CreatedOn], [p].[ModifiedBy], [p].[ModifiedOn], [p].[Name], [p].[ProductPrice], [p].[StockAmount]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__id_0
+2019-02-14 10:09:30.6045|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@p8='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (DbType = Int32), @p2='?' (DbType = DateTime2), @p3='?' (DbType = Int32), @p4='?' (DbType = DateTime2), @p9='?' (DbType = DateTime2), @p5='?' (Size = 4000), @p6='?' (DbType = Decimal), @p7='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Products] SET [Code] = @p0, [CreatedBy] = @p1, [CreatedOn] = @p2, [ModifiedBy] = @p3, [ModifiedOn] = @p4, [Name] = @p5, [ProductPrice] = @p6, [StockAmount] = @p7
+WHERE [Id] = @p8 AND [ModifiedOn] IS NULL;
+SELECT @@ROWCOUNT;
+2019-02-14 10:09:32.0084|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Guide.API.Controllers.ProductController.Put (Guide.API), returned result Microsoft.AspNetCore.Mvc.CreatedAtRouteResult in 9690.4367ms.
+2019-02-14 10:09:32.0084|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'Guide.Application.ViewModel.CommandResponses.Product.ProductCreateView'.
+2019-02-14 10:09:32.0206|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Guide.API.Controllers.ProductController.Put (Guide.API) in 9707.0735ms
+2019-02-14 10:09:32.0206|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 9721.7352ms 201 application/json; charset=utf-8
+2019-02-14 10:09:57.9802|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 PUT http://localhost:58421/api/products/ application/json 58
+2019-02-14 10:09:57.9865|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Put", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Put (Guide.API)
+2019-02-14 10:09:57.9865|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Put (Guide.API) with arguments (Guide.Application.CQRS.Command.ProductChangePriceCommand) - Validation state: Valid
+2019-02-14 10:10:01.7656|INFO|Guide.Application.CQRS.Command.ProductChangePriceCommand|RequestType: _ProductChangePriceCommand_02/14/2019 07:10:01
+2019-02-14 10:10:01.7656|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.4-rtm-31024 initialized 'GuideContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-02-14 10:10:01.7656|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [p].[Id], [p].[Code], [p].[CreatedBy], [p].[CreatedOn], [p].[ModifiedBy], [p].[ModifiedOn], [p].[Name], [p].[ProductPrice], [p].[StockAmount]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__id_0
+2019-02-14 10:11:32.4662|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@p8='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (DbType = Int32), @p2='?' (DbType = DateTime2), @p3='?' (DbType = Int32), @p4='?' (DbType = DateTime2), @p9='?' (DbType = DateTime2), @p5='?' (Size = 4000), @p6='?' (DbType = Decimal), @p7='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Products] SET [Code] = @p0, [CreatedBy] = @p1, [CreatedOn] = @p2, [ModifiedBy] = @p3, [ModifiedOn] = @p4, [Name] = @p5, [ProductPrice] = @p6, [StockAmount] = @p7
+WHERE [Id] = @p8 AND [ModifiedOn] IS NULL;
+SELECT @@ROWCOUNT;
+2019-02-14 10:11:32.4853|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Guide.API.Controllers.ProductController.Put (Guide.API), returned result Microsoft.AspNetCore.Mvc.CreatedAtRouteResult in 94494.0923ms.
+2019-02-14 10:11:32.4853|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'Guide.Application.ViewModel.CommandResponses.Product.ProductCreateView'.
+2019-02-14 10:11:32.4853|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Guide.API.Controllers.ProductController.Put (Guide.API) in 94505.93ms
+2019-02-14 10:11:32.4994|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 94520.656ms 201 application/json; charset=utf-8
+2019-02-14 10:12:29.1454|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 PUT http://localhost:58421/api/products/ application/json 58
+2019-02-14 10:12:29.1516|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Put", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Put (Guide.API)
+2019-02-14 10:12:29.1516|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Put (Guide.API) with arguments (Guide.Application.CQRS.Command.ProductChangePriceCommand) - Validation state: Valid
+2019-02-14 10:12:30.5324|INFO|Guide.Application.CQRS.Command.ProductChangePriceCommand|RequestType: _ProductChangePriceCommand_02/14/2019 07:12:30
+2019-02-14 10:12:30.5324|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.4-rtm-31024 initialized 'GuideContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-02-14 10:12:30.5324|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [p].[Id], [p].[Code], [p].[CreatedBy], [p].[CreatedOn], [p].[ModifiedBy], [p].[ModifiedOn], [p].[Name], [p].[ProductPrice], [p].[StockAmount]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__id_0
+2019-02-14 10:13:45.0736|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@p8='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (DbType = Int32), @p2='?' (DbType = DateTime2), @p3='?' (DbType = Int32), @p4='?' (DbType = DateTime2), @p9='?' (DbType = DateTime2), @p5='?' (Size = 4000), @p6='?' (DbType = Decimal), @p7='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Products] SET [Code] = @p0, [CreatedBy] = @p1, [CreatedOn] = @p2, [ModifiedBy] = @p3, [ModifiedOn] = @p4, [Name] = @p5, [ProductPrice] = @p6, [StockAmount] = @p7
+WHERE [Id] = @p8 AND [ModifiedOn] IS NULL;
+SELECT @@ROWCOUNT;
+2019-02-14 10:13:45.6691|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Guide.API.Controllers.ProductController.Put (Guide.API), returned result Microsoft.AspNetCore.Mvc.CreatedAtRouteResult in 76508.8701ms.
+2019-02-14 10:13:45.6691|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'Guide.Application.ViewModel.CommandResponses.Product.ProductCreateView'.
+2019-02-14 10:13:45.6691|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Guide.API.Controllers.ProductController.Put (Guide.API) in 76522.4705ms
+2019-02-14 10:13:45.6883|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 76542.5312ms 201 application/json; charset=utf-8
+2019-02-14 10:13:55.0158|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 PUT http://localhost:58421/api/products/ application/json 58
+2019-02-14 10:13:55.0158|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Put", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Put (Guide.API)
+2019-02-14 10:13:55.0158|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Put (Guide.API) with arguments (Guide.Application.CQRS.Command.ProductChangePriceCommand) - Validation state: Valid
+2019-02-14 10:13:56.2543|INFO|Guide.Application.CQRS.Command.ProductChangePriceCommand|RequestType: _ProductChangePriceCommand_02/14/2019 07:13:56
+2019-02-14 10:13:56.2543|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.4-rtm-31024 initialized 'GuideContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-02-14 10:13:56.2600|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [p].[Id], [p].[Code], [p].[CreatedBy], [p].[CreatedOn], [p].[ModifiedBy], [p].[ModifiedOn], [p].[Name], [p].[ProductPrice], [p].[StockAmount]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__id_0
+2019-02-14 10:14:56.0817|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@p8='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (DbType = Int32), @p2='?' (DbType = DateTime2), @p3='?' (DbType = Int32), @p4='?' (DbType = DateTime2), @p9='?' (DbType = DateTime2), @p5='?' (Size = 4000), @p6='?' (DbType = Decimal), @p7='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Products] SET [Code] = @p0, [CreatedBy] = @p1, [CreatedOn] = @p2, [ModifiedBy] = @p3, [ModifiedOn] = @p4, [Name] = @p5, [ProductPrice] = @p6, [StockAmount] = @p7
+WHERE [Id] = @p8 AND [ModifiedOn] IS NULL;
+SELECT @@ROWCOUNT;
+2019-02-14 10:14:57.4845|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Guide.API.Controllers.ProductController.Put (Guide.API), returned result Microsoft.AspNetCore.Mvc.CreatedAtRouteResult in 62459.073ms.
+2019-02-14 10:14:57.4949|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'Guide.Application.ViewModel.CommandResponses.Product.ProductCreateView'.
+2019-02-14 10:14:57.4949|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Guide.API.Controllers.ProductController.Put (Guide.API) in 62478.8271ms
+2019-02-14 10:14:57.5082|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 62491.3383ms 201 application/json; charset=utf-8
+2019-02-14 10:15:00.6335|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 PUT http://localhost:58421/api/products/ application/json 58
+2019-02-14 10:15:00.6335|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Put", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Put (Guide.API)
+2019-02-14 10:15:00.6335|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Put (Guide.API) with arguments (Guide.Application.CQRS.Command.ProductChangePriceCommand) - Validation state: Valid
+2019-02-14 10:15:15.9078|INFO|Guide.Application.CQRS.Command.ProductChangePriceCommand|RequestType: _ProductChangePriceCommand_02/14/2019 07:15:15
+2019-02-14 10:15:15.9078|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.4-rtm-31024 initialized 'GuideContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-02-14 10:15:15.9189|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [p].[Id], [p].[Code], [p].[CreatedBy], [p].[CreatedOn], [p].[ModifiedBy], [p].[ModifiedOn], [p].[Name], [p].[ProductPrice], [p].[StockAmount]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__id_0
+2019-02-14 10:16:22.9385|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@p8='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (DbType = Int32), @p2='?' (DbType = DateTime2), @p3='?' (DbType = Int32), @p4='?' (DbType = DateTime2), @p9='?' (DbType = DateTime2), @p5='?' (Size = 4000), @p6='?' (DbType = Decimal), @p7='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Products] SET [Code] = @p0, [CreatedBy] = @p1, [CreatedOn] = @p2, [ModifiedBy] = @p3, [ModifiedOn] = @p4, [Name] = @p5, [ProductPrice] = @p6, [StockAmount] = @p7
+WHERE [Id] = @p8 AND [ModifiedOn] IS NULL;
+SELECT @@ROWCOUNT;
+2019-02-14 10:16:23.7854|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Guide.API.Controllers.ProductController.Put (Guide.API), returned result Microsoft.AspNetCore.Mvc.CreatedAtRouteResult in 83143.6322ms.
+2019-02-14 10:16:23.7913|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'Guide.Application.ViewModel.CommandResponses.Product.ProductCreateView'.
+2019-02-14 10:16:23.7913|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Guide.API.Controllers.ProductController.Put (Guide.API) in 83155.997ms
+2019-02-14 10:16:23.7913|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 83165.6402ms 201 application/json; charset=utf-8
+2019-02-14 10:16:26.1700|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 PUT http://localhost:58421/api/products/ application/json 58
+2019-02-14 10:16:26.1700|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Put", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Put (Guide.API)
+2019-02-14 10:16:26.1700|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Put (Guide.API) with arguments (Guide.Application.CQRS.Command.ProductChangePriceCommand) - Validation state: Valid
+2019-02-14 10:16:30.7339|INFO|Guide.Application.CQRS.Command.ProductChangePriceCommand|RequestType: _ProductChangePriceCommand_02/14/2019 07:16:30
+2019-02-14 10:16:34.8392|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.4-rtm-31024 initialized 'GuideContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-02-14 10:16:34.8392|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [p].[Id], [p].[Code], [p].[CreatedBy], [p].[CreatedOn], [p].[ModifiedBy], [p].[ModifiedOn], [p].[Name], [p].[ProductPrice], [p].[StockAmount]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__id_0
+2019-02-14 10:18:06.2273|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 PUT http://localhost:58421/api/products/ application/json 58
+2019-02-14 10:18:06.3504|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Put", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Put (Guide.API)
+2019-02-14 10:18:06.4697|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Put (Guide.API) with arguments (Guide.Application.CQRS.Command.ProductChangePriceCommand) - Validation state: Valid
+2019-02-14 10:18:06.4853|INFO|Guide.Application.CQRS.Command.ProductChangePriceCommand|RequestType: _ProductChangePriceCommand_02/14/2019 07:18:06
+2019-02-14 10:18:06.5873|WARN|Microsoft.EntityFrameworkCore.Model.Validation|No type was specified for the decimal column 'ProductPrice' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+2019-02-14 10:18:06.6072|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.4-rtm-31024 initialized 'GuideContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-02-14 10:18:06.6599|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [p].[Id], [p].[Code], [p].[CreatedBy], [p].[CreatedOn], [p].[ModifiedBy], [p].[ModifiedOn], [p].[Name], [p].[ProductPrice], [p].[StockAmount]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__id_0
+2019-02-14 10:18:06.7756|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@p8='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (DbType = Int32), @p2='?' (DbType = DateTime2), @p3='?' (DbType = Int32), @p4='?' (DbType = DateTime2), @p9='?' (DbType = DateTime2), @p5='?' (Size = 4000), @p6='?' (DbType = Decimal), @p7='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Products] SET [Code] = @p0, [CreatedBy] = @p1, [CreatedOn] = @p2, [ModifiedBy] = @p3, [ModifiedOn] = @p4, [Name] = @p5, [ProductPrice] = @p6, [StockAmount] = @p7
+WHERE [Id] = @p8 AND [ModifiedOn] IS NULL;
+SELECT @@ROWCOUNT;
+2019-02-14 10:18:06.7891|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Guide.API.Controllers.ProductController.Put (Guide.API), returned result Microsoft.AspNetCore.Mvc.CreatedAtRouteResult in 314.5541ms.
+2019-02-14 10:18:06.7891|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'Guide.Application.ViewModel.CommandResponses.Product.ProductCreateView'.
+2019-02-14 10:18:06.8073|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Guide.API.Controllers.ProductController.Put (Guide.API) in 450.6518ms
+2019-02-14 10:18:06.8192|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 595.4073ms 201 application/json; charset=utf-8
+2019-02-14 10:18:31.9658|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-14 10:18:32.0516|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 88.8418ms 200 
+2019-02-14 10:18:39.1034|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 PUT http://localhost:58421/api/products/ application/json 58
+2019-02-14 10:18:39.1618|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Put", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Put (Guide.API)
+2019-02-14 10:18:39.2904|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Put (Guide.API) with arguments (Guide.Application.CQRS.Command.ProductChangePriceCommand) - Validation state: Valid
+2019-02-14 10:18:43.0487|INFO|Guide.Application.CQRS.Command.ProductChangePriceCommand|RequestType: _ProductChangePriceCommand_02/14/2019 07:18:43
+2019-02-14 10:18:44.7523|WARN|Microsoft.EntityFrameworkCore.Model.Validation|No type was specified for the decimal column 'ProductPrice' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+2019-02-14 10:18:44.7781|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.4-rtm-31024 initialized 'GuideContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-02-14 10:18:44.8427|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [p].[Id], [p].[Code], [p].[CreatedBy], [p].[CreatedOn], [p].[ModifiedBy], [p].[ModifiedOn], [p].[Name], [p].[ProductPrice], [p].[StockAmount]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__id_0
+2019-02-14 10:20:03.0548|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@p8='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (DbType = Int32), @p2='?' (DbType = DateTime2), @p3='?' (DbType = Int32), @p4='?' (DbType = DateTime2), @p9='?' (DbType = DateTime2), @p5='?' (Size = 4000), @p6='?' (DbType = Decimal), @p7='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Products] SET [Code] = @p0, [CreatedBy] = @p1, [CreatedOn] = @p2, [ModifiedBy] = @p3, [ModifiedOn] = @p4, [Name] = @p5, [ProductPrice] = @p6, [StockAmount] = @p7
+WHERE [Id] = @p8 AND [ModifiedOn] IS NULL;
+SELECT @@ROWCOUNT;
+2019-02-14 10:20:03.0845|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Guide.API.Controllers.ProductController.Put (Guide.API), returned result Microsoft.AspNetCore.Mvc.CreatedAtRouteResult in 83787.543ms.
+2019-02-14 10:20:03.0845|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'Guide.Application.ViewModel.CommandResponses.Product.ProductCreateView'.
+2019-02-14 10:20:03.1135|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Guide.API.Controllers.ProductController.Put (Guide.API) in 83941.4392ms
+2019-02-14 10:20:03.1390|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 84034.7721ms 201 application/json; charset=utf-8
+2019-02-14 10:20:21.3079|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-14 10:20:21.3973|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 93.28ms 200 
+2019-02-14 10:20:22.9094|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 PUT http://localhost:58421/api/products/ application/json 58
+2019-02-14 10:20:22.9650|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Put", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Put (Guide.API)
+2019-02-14 10:20:23.0933|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Put (Guide.API) with arguments (Guide.Application.CQRS.Command.ProductChangePriceCommand) - Validation state: Valid
+2019-02-14 10:20:23.1115|INFO|Guide.Application.CQRS.Command.ProductChangePriceCommand|RequestType: _ProductChangePriceCommand_02/14/2019 07:20:23
+2019-02-14 10:20:23.2344|WARN|Microsoft.EntityFrameworkCore.Model.Validation|No type was specified for the decimal column 'ProductPrice' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+2019-02-14 10:20:23.2591|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.4-rtm-31024 initialized 'GuideContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-02-14 10:20:23.3205|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [p].[Id], [p].[Code], [p].[CreatedBy], [p].[CreatedOn], [p].[ModifiedBy], [p].[ModifiedOn], [p].[Name], [p].[ProductPrice], [p].[StockAmount]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__id_0
+2019-02-14 10:20:24.8750|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@p8='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (DbType = Int32), @p2='?' (DbType = DateTime2), @p3='?' (DbType = Int32), @p4='?' (DbType = DateTime2), @p9='?' (DbType = DateTime2), @p5='?' (Size = 4000), @p6='?' (DbType = Decimal), @p7='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Products] SET [Code] = @p0, [CreatedBy] = @p1, [CreatedOn] = @p2, [ModifiedBy] = @p3, [ModifiedOn] = @p4, [Name] = @p5, [ProductPrice] = @p6, [StockAmount] = @p7
+WHERE [Id] = @p8 AND [ModifiedOn] IS NULL;
+SELECT @@ROWCOUNT;
+2019-02-14 10:20:26.8071|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Guide.API.Controllers.ProductController.Put (Guide.API), returned result Microsoft.AspNetCore.Mvc.CreatedAtRouteResult in 3706.7185ms.
+2019-02-14 10:20:26.8071|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'Guide.Application.ViewModel.CommandResponses.Product.ProductCreateView'.
+2019-02-14 10:20:26.8285|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Guide.API.Controllers.ProductController.Put (Guide.API) in 3856.1145ms
+2019-02-14 10:20:26.8485|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3938.0665ms 201 application/json; charset=utf-8
+2019-02-14 11:45:16.8081|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-14 11:45:16.8934|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 88.3668ms 200 
+2019-02-14 11:45:21.0020|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 PUT http://localhost:58421/api/products/ application/json 58
+2019-02-14 11:45:21.0607|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Put", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Put (Guide.API)
+2019-02-14 11:45:21.1909|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Put (Guide.API) with arguments (Guide.Application.CQRS.Command.ProductChangePriceCommand) - Validation state: Valid
+2019-02-14 11:45:21.2096|INFO|Guide.Application.CQRS.Command.ProductChangePriceCommand|RequestType: _ProductChangePriceCommand_02/14/2019 08:45:21
+2019-02-14 11:45:21.3392|WARN|Microsoft.EntityFrameworkCore.Model.Validation|No type was specified for the decimal column 'ProductPrice' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+2019-02-14 11:45:21.3641|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.4-rtm-31024 initialized 'GuideContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-02-14 11:45:21.4273|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [p].[Id], [p].[Code], [p].[CreatedBy], [p].[CreatedOn], [p].[ModifiedBy], [p].[ModifiedOn], [p].[Name], [p].[PriceChangeDescription], [p].[ProductPrice], [p].[StockAmount]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__id_0
+2019-02-14 11:45:32.6924|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[@p9='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (DbType = Int32), @p2='?' (DbType = DateTime2), @p3='?' (DbType = Int32), @p4='?' (DbType = DateTime2), @p10='?' (DbType = DateTime2), @p5='?' (Size = 4000), @p6='?' (Size = 4000), @p7='?' (DbType = Decimal), @p8='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Products] SET [Code] = @p0, [CreatedBy] = @p1, [CreatedOn] = @p2, [ModifiedBy] = @p3, [ModifiedOn] = @p4, [Name] = @p5, [PriceChangeDescription] = @p6, [ProductPrice] = @p7, [StockAmount] = @p8
+WHERE [Id] = @p9 AND [ModifiedOn] IS NULL;
+SELECT @@ROWCOUNT;
+2019-02-14 11:47:21.4539|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-14 11:47:21.5392|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 88.3195ms 200 
+2019-02-14 11:47:23.5704|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 PUT http://localhost:58421/api/products/ application/json 58
+2019-02-14 11:47:23.6328|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Put", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Put (Guide.API)
+2019-02-14 11:47:23.7627|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Put (Guide.API) with arguments (Guide.Application.CQRS.Command.ProductChangePriceCommand) - Validation state: Valid
+2019-02-14 11:47:23.7822|INFO|Guide.Application.CQRS.Command.ProductChangePriceCommand|RequestType: _ProductChangePriceCommand_02/14/2019 08:47:23
+2019-02-14 11:47:23.9079|WARN|Microsoft.EntityFrameworkCore.Model.Validation|No type was specified for the decimal column 'ProductPrice' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+2019-02-14 11:47:23.9322|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.4-rtm-31024 initialized 'GuideContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-02-14 11:47:23.9953|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [p].[Id], [p].[Code], [p].[CreatedBy], [p].[CreatedOn], [p].[ModifiedBy], [p].[ModifiedOn], [p].[Name], [p].[PriceChangeDescription], [p].[ProductPrice], [p].[StockAmount]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__id_0
+2019-02-14 11:47:25.7294|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@p9='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (DbType = Int32), @p2='?' (DbType = DateTime2), @p3='?' (DbType = Int32), @p4='?' (DbType = DateTime2), @p10='?' (DbType = DateTime2), @p5='?' (Size = 4000), @p6='?' (Size = 4000), @p7='?' (DbType = Decimal), @p8='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Products] SET [Code] = @p0, [CreatedBy] = @p1, [CreatedOn] = @p2, [ModifiedBy] = @p3, [ModifiedOn] = @p4, [Name] = @p5, [PriceChangeDescription] = @p6, [ProductPrice] = @p7, [StockAmount] = @p8
+WHERE [Id] = @p9 AND [ModifiedOn] IS NULL;
+SELECT @@ROWCOUNT;
+2019-02-14 11:48:54.4533|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-14 11:48:54.5423|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 91.6236ms 200 
+2019-02-14 11:48:56.5771|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 PUT http://localhost:58421/api/products/ application/json 58
+2019-02-14 11:48:56.6323|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Put", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Put (Guide.API)
+2019-02-14 11:48:56.7624|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Put (Guide.API) with arguments (Guide.Application.CQRS.Command.ProductChangePriceCommand) - Validation state: Valid
+2019-02-14 11:48:56.7808|INFO|Guide.Application.CQRS.Command.ProductChangePriceCommand|RequestType: _ProductChangePriceCommand_02/14/2019 08:48:56
+2019-02-14 11:48:56.9068|WARN|Microsoft.EntityFrameworkCore.Model.Validation|No type was specified for the decimal column 'ProductPrice' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+2019-02-14 11:48:56.9329|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.4-rtm-31024 initialized 'GuideContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-02-14 11:48:57.0000|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [p].[Id], [p].[Code], [p].[CreatedBy], [p].[CreatedOn], [p].[ModifiedBy], [p].[ModifiedOn], [p].[Name], [p].[PriceChangeDescription], [p].[ProductPrice], [p].[StockAmount]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__id_0
+2019-02-14 11:49:05.4186|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@p9='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (DbType = Int32), @p2='?' (DbType = DateTime2), @p3='?' (DbType = Int32), @p4='?' (DbType = DateTime2), @p10='?' (DbType = DateTime2), @p5='?' (Size = 4000), @p6='?' (Size = 4000), @p7='?' (DbType = Decimal), @p8='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Products] SET [Code] = @p0, [CreatedBy] = @p1, [CreatedOn] = @p2, [ModifiedBy] = @p3, [ModifiedOn] = @p4, [Name] = @p5, [PriceChangeDescription] = @p6, [ProductPrice] = @p7, [StockAmount] = @p8
+WHERE [Id] = @p9 AND [ModifiedOn] IS NULL;
+SELECT @@ROWCOUNT;
+2019-02-14 11:50:13.5137|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 PUT http://localhost:58421/api/products/ application/json 58
+2019-02-14 11:50:13.6252|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Put", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Put (Guide.API)
+2019-02-14 11:50:13.7406|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Put (Guide.API) with arguments (Guide.Application.CQRS.Command.ProductChangePriceCommand) - Validation state: Valid
+2019-02-14 11:50:13.7553|INFO|Guide.Application.CQRS.Command.ProductChangePriceCommand|RequestType: _ProductChangePriceCommand_02/14/2019 08:50:13
+2019-02-14 11:50:13.8617|WARN|Microsoft.EntityFrameworkCore.Model.Validation|No type was specified for the decimal column 'ProductPrice' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+2019-02-14 11:50:13.8814|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.4-rtm-31024 initialized 'GuideContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-02-14 11:50:13.9359|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [p].[Id], [p].[Code], [p].[CreatedBy], [p].[CreatedOn], [p].[ModifiedBy], [p].[ModifiedOn], [p].[Name], [p].[PriceChangeDescription], [p].[ProductPrice], [p].[StockAmount]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__id_0
+2019-02-14 11:50:14.0521|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@p9='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (DbType = Int32), @p2='?' (DbType = DateTime2), @p3='?' (DbType = Int32), @p4='?' (DbType = DateTime2), @p10='?' (DbType = DateTime2), @p5='?' (Size = 4000), @p6='?' (Size = 4000), @p7='?' (DbType = Decimal), @p8='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Products] SET [Code] = @p0, [CreatedBy] = @p1, [CreatedOn] = @p2, [ModifiedBy] = @p3, [ModifiedOn] = @p4, [Name] = @p5, [PriceChangeDescription] = @p6, [ProductPrice] = @p7, [StockAmount] = @p8
+WHERE [Id] = @p9 AND [ModifiedOn] IS NULL;
+SELECT @@ROWCOUNT;
+2019-02-14 11:50:14.1009|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Guide.API.Controllers.ProductController.Put (Guide.API) in 469.4967ms
+2019-02-14 11:50:14.1158|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 605.5386ms 404 application/json
+2019-02-14 11:50:36.1983|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-14 11:50:36.2871|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 91.1293ms 200 
+2019-02-14 11:50:40.2159|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 PUT http://localhost:58421/api/products/ application/json 58
+2019-02-14 11:50:40.2740|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Put", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Put (Guide.API)
+2019-02-14 11:50:40.4114|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Put (Guide.API) with arguments (Guide.Application.CQRS.Command.ProductChangePriceCommand) - Validation state: Valid
+2019-02-14 11:50:40.4309|INFO|Guide.Application.CQRS.Command.ProductChangePriceCommand|RequestType: _ProductChangePriceCommand_02/14/2019 08:50:40
+2019-02-14 11:50:40.5540|WARN|Microsoft.EntityFrameworkCore.Model.Validation|No type was specified for the decimal column 'ProductPrice' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+2019-02-14 11:50:40.5786|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.4-rtm-31024 initialized 'GuideContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-02-14 11:50:40.6460|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [p].[Id], [p].[Code], [p].[CreatedBy], [p].[CreatedOn], [p].[ModifiedBy], [p].[ModifiedOn], [p].[Name], [p].[PriceChangeDescription], [p].[ProductPrice], [p].[StockAmount]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__id_0
+2019-02-14 11:50:46.8178|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@p9='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (DbType = Int32), @p2='?' (DbType = DateTime2), @p3='?' (DbType = Int32), @p4='?' (DbType = DateTime2), @p10='?' (DbType = DateTime2), @p5='?' (Size = 4000), @p6='?' (Size = 4000), @p7='?' (DbType = Decimal), @p8='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Products] SET [Code] = @p0, [CreatedBy] = @p1, [CreatedOn] = @p2, [ModifiedBy] = @p3, [ModifiedOn] = @p4, [Name] = @p5, [PriceChangeDescription] = @p6, [ProductPrice] = @p7, [StockAmount] = @p8
+WHERE [Id] = @p9 AND [ModifiedOn] IS NULL;
+SELECT @@ROWCOUNT;
+2019-02-14 11:50:50.8360|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Guide.API.Controllers.ProductController.Put (Guide.API), returned result Microsoft.AspNetCore.Mvc.CreatedAtRouteResult in 10416.6797ms.
+2019-02-14 11:50:50.8360|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'Guide.Application.ViewModel.CommandResponses.Product.ProductCreateView'.
+2019-02-14 11:50:50.8605|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Guide.API.Controllers.ProductController.Put (Guide.API) in 10578.676ms
+2019-02-14 11:50:50.8789|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 10661.6009ms 201 application/json; charset=utf-8
+2019-02-14 11:52:21.2270|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-14 11:52:21.3133|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 89.3142ms 200 
+2019-02-14 11:56:42.0478|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-14 11:56:42.1332|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 88.1995ms 200 
+2019-02-14 11:56:51.3489|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 PUT http://localhost:58421/api/products/ application/json 58
+2019-02-14 11:56:51.4243|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Put", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Put (Guide.API)
+2019-02-14 11:56:51.5616|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Put (Guide.API) with arguments (Guide.Application.CQRS.Command.ProductChangePriceCommand) - Validation state: Valid
+2019-02-14 11:56:51.5783|INFO|Guide.Application.CQRS.Command.ProductChangePriceCommand|RequestType: _ProductChangePriceCommand_02/14/2019 08:56:51
+2019-02-14 11:56:51.7003|WARN|Microsoft.EntityFrameworkCore.Model.Validation|No type was specified for the decimal column 'ProductPrice' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+2019-02-14 11:56:51.7248|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.4-rtm-31024 initialized 'GuideContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-02-14 11:56:51.7867|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [p].[Id], [p].[Code], [p].[CreatedBy], [p].[CreatedOn], [p].[ModifiedBy], [p].[ModifiedOn], [p].[Name], [p].[PriceChangeDescription], [p].[ProductPrice], [p].[StockAmount]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__id_0
+2019-02-14 11:56:55.3125|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@p9='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (DbType = Int32), @p2='?' (DbType = DateTime2), @p3='?' (DbType = Int32), @p4='?' (DbType = DateTime2), @p10='?' (DbType = DateTime2), @p5='?' (Size = 4000), @p6='?' (Size = 4000), @p7='?' (DbType = Decimal), @p8='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Products] SET [Code] = @p0, [CreatedBy] = @p1, [CreatedOn] = @p2, [ModifiedBy] = @p3, [ModifiedOn] = @p4, [Name] = @p5, [PriceChangeDescription] = @p6, [ProductPrice] = @p7, [StockAmount] = @p8
+WHERE [Id] = @p9 AND [ModifiedOn] IS NULL;
+SELECT @@ROWCOUNT;
+2019-02-14 11:57:09.8769|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Guide.API.Controllers.ProductController.Put (Guide.API), returned result Microsoft.AspNetCore.Mvc.CreatedAtRouteResult in 17557.3186ms.
+2019-02-14 11:57:09.8979|INFO|Guide.Application.ApplicationEvents.EventHandlers.ProductPriceChangedApplicationEventHandler|Product Price Changed, Product Code: Prd001, New Price: 30.0
+2019-02-14 11:57:09.9118|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'Guide.Application.ViewModel.CommandResponses.Product.ProductCreateView'.
+2019-02-14 11:57:09.9245|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Guide.API.Controllers.ProductController.Put (Guide.API) in 18493.1881ms
+2019-02-14 11:57:09.9491|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 18597.9252ms 201 application/json; charset=utf-8

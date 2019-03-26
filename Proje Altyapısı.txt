@@ -1,0 +1,15 @@
+
+
+- Unit of Work - Repository Pattern
+- Entity Framework Core (+Conventions & Configuration Refactoring)
+- CQRS - Mediatr Pattern
+- Messaging with RabbitMQ - Domain Events & Application Events - Event Bus Management
+- Exception Handling Middleware
+- Fluent Validation
+- Automapper
+- Logging with NLog
+- Filter Builder
+- Asp.Net Core 2.0 Identity Authentication (+JWT, +Authorization)
+
+++ Caching
+++ Testing with NUnit - Mocking with Moq

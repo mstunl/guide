@@ -1,0 +1,657 @@
+2019-02-12 09:00:59.5389|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-12 09:00:59.6346|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 99.4553ms 200 
+2019-02-12 09:01:24.3011|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:58421/api/products/ application/json 72
+2019-02-12 09:01:24.3651|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Post", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Post (Guide.API)
+2019-02-12 09:01:24.4521|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Post (Guide.API) with arguments (Guide.Application.CQRS.Command.ProductCreateCommand) - Validation state: Valid
+2019-02-12 09:01:24.4842|INFO|Guide.Application.CQRS.Command.ProductCreateCommand|RequestType: _ProductCreateCommand_02/12/2019 06:01:24
+2019-02-12 09:01:29.9694|ERROR|Guide.Application.ExceptionHandling.GlobalExceptionHandler|Stok miktarı 0'dan büyük olmalıdır!
+2019-02-12 09:01:29.9786|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Guide.API.Controllers.ProductController.Post (Guide.API) in 5604.291ms
+2019-02-12 09:01:29.9786|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 5683.7407ms 500 application/json
+2019-02-12 09:01:35.6297|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 72
+2019-02-12 09:01:35.6297|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 09:01:35.6297|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Get (Guide.API) with arguments (Guide.Application.CQRS.Query.ProductListQuery) - Validation state: Valid
+2019-02-12 09:01:43.9448|INFO|Guide.Application.CQRS.Query.ProductListQuery|RequestType: _ProductListQuery_02/12/2019 06:01:43
+2019-02-12 09:02:44.9772|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-12 09:02:45.0797|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 105.1646ms 200 
+2019-02-12 09:02:46.9143|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 72
+2019-02-12 09:02:46.9738|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 09:02:47.0550|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Get (Guide.API) with arguments (Guide.Application.CQRS.Query.ProductListQuery) - Validation state: Valid
+2019-02-12 09:02:49.7813|INFO|Guide.Application.CQRS.Query.ProductListQuery|RequestType: _ProductListQuery_02/12/2019 06:02:49
+2019-02-12 09:05:20.4683|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-12 09:05:20.5598|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 94.5563ms 200 
+2019-02-12 09:05:29.5713|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 72
+2019-02-12 09:05:29.6295|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 09:05:29.7101|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Get (Guide.API) with arguments (Guide.Application.CQRS.Query.ProductListQuery) - Validation state: Valid
+2019-02-12 09:05:31.4471|INFO|Guide.Application.CQRS.Query.ProductListQuery|RequestType: _ProductListQuery_02/12/2019 06:05:31
+2019-02-12 09:05:54.3177|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-12 09:05:54.4084|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 94.0593ms 200 
+2019-02-12 09:06:02.0468|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 72
+2019-02-12 09:06:02.1047|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 09:06:02.1870|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Get (Guide.API) with arguments (Guide.Application.CQRS.Query.ProductListQuery) - Validation state: Valid
+2019-02-12 09:06:04.1205|INFO|Guide.Application.CQRS.Query.ProductListQuery|RequestType: _ProductListQuery_02/12/2019 06:06:04
+2019-02-12 09:09:30.1138|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-12 09:09:30.2006|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 89.0269ms 200 
+2019-02-12 09:09:33.4084|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 72
+2019-02-12 09:09:33.4733|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 09:09:33.5678|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Get (Guide.API) with arguments (Guide.Application.CQRS.Query.ProductListQuery) - Validation state: Valid
+2019-02-12 09:09:35.1527|INFO|Guide.Application.CQRS.Query.ProductListQuery|RequestType: _ProductListQuery_02/12/2019 06:09:35
+2019-02-12 09:09:38.6172|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.4-rtm-31024 initialized 'GuideContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-02-12 09:09:38.6654|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Code], [p].[CreatedOn], [p].[ModifiedOn], [p].[Name], [p].[StockAmount]
+FROM [ProductListView] AS [p]
+2019-02-12 09:09:58.2255|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Guide.API.Controllers.ProductController.Get (Guide.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 24649.3783ms.
+2019-02-12 09:09:58.2363|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Guide.Application.ViewModel.QueryResponses.Product.ProductView, Guide.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-02-12 09:09:58.2505|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Guide.API.Controllers.ProductController.Get (Guide.API) in 24770.0825ms
+2019-02-12 09:09:58.2505|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 24853.8789ms 200 application/json; charset=utf-8
+2019-02-12 09:10:28.1070|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 72
+2019-02-12 09:10:28.1070|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 09:10:28.1070|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Get (Guide.API) with arguments (Guide.Application.CQRS.Query.ProductListQuery) - Validation state: Valid
+2019-02-12 09:10:34.7989|INFO|Guide.Application.CQRS.Query.ProductListQuery|RequestType: _ProductListQuery_02/12/2019 06:10:34
+2019-02-12 09:11:01.4024|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.4-rtm-31024 initialized 'GuideContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-02-12 09:11:01.4024|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Code], [p].[CreatedOn], [p].[ModifiedOn], [p].[Name], [p].[StockAmount]
+FROM [ProductListView] AS [p]
+2019-02-12 09:11:53.1171|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-12 09:11:53.2018|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 88.0285ms 200 
+2019-02-12 09:11:54.9387|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 72
+2019-02-12 09:11:54.9978|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 09:11:55.0836|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Get (Guide.API) with arguments (Guide.Application.CQRS.Query.ProductListQuery) - Validation state: Valid
+2019-02-12 09:11:55.9906|INFO|Guide.Application.CQRS.Query.ProductListQuery|RequestType: _ProductListQuery_02/12/2019 06:11:55
+2019-02-12 09:11:56.8071|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.4-rtm-31024 initialized 'GuideContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-02-12 09:11:56.8579|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Code], [p].[CreatedOn], [p].[ModifiedOn], [p].[Name], [p].[StockAmount]
+FROM [ProductListView] AS [p]
+2019-02-12 09:11:56.8849|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Guide.API.Controllers.ProductController.Get (Guide.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1794.4856ms.
+2019-02-12 09:11:56.8849|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Guide.Application.ViewModel.QueryResponses.Product.ProductView, Guide.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-02-12 09:11:56.9091|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Guide.API.Controllers.ProductController.Get (Guide.API) in 1904.0078ms
+2019-02-12 09:11:56.9150|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1975.825ms 200 application/json; charset=utf-8
+2019-02-12 09:11:59.4013|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 72
+2019-02-12 09:11:59.4013|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 09:11:59.4013|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Get (Guide.API) with arguments (Guide.Application.CQRS.Query.ProductListQuery) - Validation state: Valid
+2019-02-12 09:12:02.0566|INFO|Guide.Application.CQRS.Query.ProductListQuery|RequestType: _ProductListQuery_02/12/2019 06:12:02
+2019-02-12 09:12:03.6236|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.4-rtm-31024 initialized 'GuideContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-02-12 09:12:03.6236|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Code], [p].[CreatedOn], [p].[ModifiedOn], [p].[Name], [p].[StockAmount]
+FROM [ProductListView] AS [p]
+2019-02-12 09:12:07.7958|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Guide.API.Controllers.ProductController.Get (Guide.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 8384.7837ms.
+2019-02-12 09:12:07.7958|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Guide.Application.ViewModel.QueryResponses.Product.ProductView, Guide.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-02-12 09:12:07.8075|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Guide.API.Controllers.ProductController.Get (Guide.API) in 8399.2036ms
+2019-02-12 09:12:07.8075|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 8412.298ms 200 application/json; charset=utf-8
+2019-02-12 09:12:11.0825|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 72
+2019-02-12 09:12:11.0825|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 09:12:11.0888|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Get (Guide.API) with arguments (Guide.Application.CQRS.Query.ProductListQuery) - Validation state: Valid
+2019-02-12 09:12:14.3237|INFO|Guide.Application.CQRS.Query.ProductListQuery|RequestType: _ProductListQuery_02/12/2019 06:12:14
+2019-02-12 09:13:39.0133|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.4-rtm-31024 initialized 'GuideContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-02-12 09:13:39.0133|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Code], [p].[CreatedOn], [p].[ModifiedOn], [p].[Name], [p].[StockAmount]
+FROM [ProductListView] AS [p]
+2019-02-12 09:13:39.0283|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Guide.API.Controllers.ProductController.Get (Guide.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 87938.1938ms.
+2019-02-12 09:13:39.0283|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Guide.Application.ViewModel.QueryResponses.Product.ProductView, Guide.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-02-12 09:13:39.0405|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Guide.API.Controllers.ProductController.Get (Guide.API) in 87953.3726ms
+2019-02-12 09:13:39.0405|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 87962.7547ms 200 application/json; charset=utf-8
+2019-02-12 09:14:35.1795|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-12 09:14:35.2694|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 90.5123ms 200 
+2019-02-12 09:14:38.2090|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 72
+2019-02-12 09:14:38.2668|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 09:14:38.3568|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Get (Guide.API) with arguments (Guide.Application.CQRS.Query.ProductListQuery) - Validation state: Valid
+2019-02-12 09:14:40.1439|INFO|Guide.Application.CQRS.Query.ProductListQuery|RequestType: _ProductListQuery_02/12/2019 06:14:40
+2019-02-12 09:26:02.2077|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-12 09:26:02.2986|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 93.7231ms 200 
+2019-02-12 09:26:03.9629|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 72
+2019-02-12 09:26:04.0304|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 09:26:04.1122|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Get (Guide.API) with arguments (Guide.Application.CQRS.Query.ProductListQuery) - Validation state: Valid
+2019-02-12 09:26:06.7706|INFO|Guide.Application.CQRS.Query.ProductListQuery|RequestType: _ProductListQuery_02/12/2019 06:26:06
+2019-02-12 09:31:04.7937|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-12 09:31:04.8857|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 95.3846ms 200 
+2019-02-12 09:31:06.0084|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 72
+2019-02-12 09:31:06.0738|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 09:31:06.1561|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Get (Guide.API) with arguments (Guide.Application.CQRS.Query.ProductListQuery) - Validation state: Valid
+2019-02-12 09:31:06.1715|INFO|Guide.Application.CQRS.Query.ProductListQuery|RequestType: _ProductListQuery_02/12/2019 06:31:06
+2019-02-12 09:31:11.0507|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.4-rtm-31024 initialized 'GuideContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-02-12 09:31:11.1028|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Code], [p].[CreatedOn], [p].[ModifiedOn], [p].[Name], [p].[StockAmount]
+FROM [ProductListView] AS [p]
+2019-02-12 09:39:02.2163|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-12 09:39:02.3014|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 88.0576ms 200 
+2019-02-12 09:39:04.4717|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 72
+2019-02-12 09:39:04.5358|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 09:39:04.6187|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Get (Guide.API) with arguments (Guide.Application.CQRS.Query.ProductListQuery) - Validation state: Valid
+2019-02-12 09:39:04.6289|INFO|Guide.Application.CQRS.Query.ProductListQuery|RequestType: _ProductListQuery_02/12/2019 06:39:04
+2019-02-12 09:39:08.9783|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Guide.API.Controllers.ProductController.Get (Guide.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 4353.1332ms.
+2019-02-12 09:39:08.9902|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Guide.Application.ViewModel.QueryResponses.Product.ProductView, Guide.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-02-12 09:39:09.0020|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Guide.API.Controllers.ProductController.Get (Guide.API) in 4458.9649ms
+2019-02-12 09:39:09.0020|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4537.2132ms 200 application/json; charset=utf-8
+2019-02-12 09:42:09.8454|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-12 09:42:09.9356|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 93.3346ms 200 
+2019-02-12 09:42:15.0644|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 72
+2019-02-12 09:42:15.1224|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 09:42:15.2076|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Get (Guide.API) with arguments (Guide.Application.CQRS.Query.ProductListQuery) - Validation state: Valid
+2019-02-12 09:42:15.2177|INFO|Guide.Application.CQRS.Query.ProductListQuery|RequestType: _ProductListQuery_02/12/2019 06:42:15
+2019-02-12 09:42:24.7435|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Guide.API.Controllers.ProductController.Get (Guide.API) in 9613.0405ms
+2019-02-12 09:42:24.7528|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 9684.4965ms 404 application/json
+2019-02-12 09:43:02.4113|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 72
+2019-02-12 09:43:02.4167|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 09:43:02.4167|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Get (Guide.API) with arguments (Guide.Application.CQRS.Query.ProductListQuery) - Validation state: Valid
+2019-02-12 09:43:02.4167|INFO|Guide.Application.CQRS.Query.ProductListQuery|RequestType: _ProductListQuery_02/12/2019 06:43:02
+2019-02-12 09:44:25.8386|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-12 09:44:25.9285|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 92.981ms 200 
+2019-02-12 09:44:29.2754|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 72
+2019-02-12 09:44:29.3356|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 09:44:29.4178|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Get (Guide.API) with arguments (Guide.Application.CQRS.Query.ProductListQuery) - Validation state: Valid
+2019-02-12 09:44:29.4178|INFO|Guide.Application.CQRS.Query.ProductListQuery|RequestType: _ProductListQuery_02/12/2019 06:44:29
+2019-02-12 09:45:22.1223|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-12 09:45:22.2096|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 90.3769ms 200 
+2019-02-12 09:45:24.8082|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 72
+2019-02-12 09:45:24.8641|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 09:45:24.9478|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Get (Guide.API) with arguments (Guide.Application.CQRS.Query.ProductListQuery) - Validation state: Valid
+2019-02-12 09:45:24.9478|INFO|Guide.Application.CQRS.Query.ProductListQuery|RequestType: _ProductListQuery_02/12/2019 06:45:24
+2019-02-12 09:46:35.3665|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-12 09:46:35.4550|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 90.1954ms 200 
+2019-02-12 09:46:40.9262|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 72
+2019-02-12 09:46:40.9849|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 09:46:41.0688|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Get (Guide.API) with arguments (Guide.Application.CQRS.Query.ProductListQuery) - Validation state: Valid
+2019-02-12 09:46:41.0791|INFO|Guide.Application.CQRS.Query.ProductListQuery|RequestType: _ProductListQuery_02/12/2019 06:46:41
+2019-02-12 09:47:44.6633|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-12 09:47:44.7522|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 91.9155ms 200 
+2019-02-12 09:47:47.4684|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 72
+2019-02-12 09:47:47.5270|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 09:47:47.6145|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Get (Guide.API) with arguments (Guide.Application.CQRS.Query.ProductListQuery) - Validation state: Valid
+2019-02-12 09:47:47.6254|INFO|Guide.Application.CQRS.Query.ProductListQuery|RequestType: _ProductListQuery_02/12/2019 06:47:47
+2019-02-12 09:49:37.6946|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-12 09:49:37.7876|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 96.0015ms 200 
+2019-02-12 09:49:42.7696|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 72
+2019-02-12 09:49:42.8396|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 09:49:42.9217|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Get (Guide.API) with arguments (Guide.Application.CQRS.Query.ProductListQuery) - Validation state: Valid
+2019-02-12 09:49:42.9318|INFO|Guide.Application.CQRS.Query.ProductListQuery|RequestType: _ProductListQuery_02/12/2019 06:49:42
+2019-02-12 09:52:28.3323|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-12 09:52:28.4427|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 92.7737ms 200 
+2019-02-12 09:52:28.9199|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 72
+2019-02-12 09:52:28.9943|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 09:52:29.0785|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Get (Guide.API) with arguments (Guide.Application.CQRS.Query.ProductListQuery) - Validation state: Valid
+2019-02-12 09:52:29.0883|INFO|Guide.Application.CQRS.Query.ProductListQuery|RequestType: _ProductListQuery_02/12/2019 06:52:29
+2019-02-12 09:54:49.0149|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-12 09:54:49.1024|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 90.9546ms 200 
+2019-02-12 09:54:53.7281|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 72
+2019-02-12 09:54:53.7861|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 09:54:53.8713|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Get (Guide.API) with arguments (Guide.Application.CQRS.Query.ProductListQuery) - Validation state: Valid
+2019-02-12 09:54:53.8817|INFO|Guide.Application.CQRS.Query.ProductListQuery|RequestType: _ProductListQuery_02/12/2019 06:54:53
+2019-02-12 09:59:09.4334|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-12 09:59:09.5207|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 88.4635ms 200 
+2019-02-12 09:59:13.4653|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 72
+2019-02-12 09:59:13.5225|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 09:59:13.6042|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Get (Guide.API) with arguments (Guide.Application.CQRS.Query.ProductListQuery) - Validation state: Valid
+2019-02-12 09:59:13.6149|INFO|Guide.Application.CQRS.Query.ProductListQuery|RequestType: _ProductListQuery_02/12/2019 06:59:13
+2019-02-12 10:00:50.4400|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-12 10:00:50.5275|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 90.5211ms 200 
+2019-02-12 10:00:56.0670|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 72
+2019-02-12 10:00:56.1260|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 10:00:56.2118|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Get (Guide.API) with arguments (Guide.Application.CQRS.Query.ProductListQuery) - Validation state: Valid
+2019-02-12 10:00:56.2230|INFO|Guide.Application.CQRS.Query.ProductListQuery|RequestType: _ProductListQuery_02/12/2019 07:00:56
+2019-02-12 10:01:38.6445|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-12 10:01:38.7404|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 97.3231ms 200 
+2019-02-12 10:01:42.5528|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 72
+2019-02-12 10:01:42.6092|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 10:01:42.6953|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Get (Guide.API) with arguments (Guide.Application.CQRS.Query.ProductListQuery) - Validation state: Valid
+2019-02-12 10:01:42.7056|INFO|Guide.Application.CQRS.Query.ProductListQuery|RequestType: _ProductListQuery_02/12/2019 07:01:42
+2019-02-12 10:03:16.6540|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 72
+2019-02-12 10:03:16.6540|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-12 10:03:16.7470|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 97.3367ms 200 
+2019-02-12 10:03:16.7989|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 10:03:16.8821|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Get (Guide.API) with arguments (Guide.Application.CQRS.Query.ProductListQuery) - Validation state: Valid
+2019-02-12 10:03:16.8926|INFO|Guide.Application.CQRS.Query.ProductListQuery|RequestType: _ProductListQuery_02/12/2019 07:03:16
+2019-02-12 10:05:25.1354|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-12 10:05:25.2255|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 93.266ms 200 
+2019-02-12 10:05:26.0165|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 72
+2019-02-12 10:05:26.0794|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 10:05:26.1651|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Get (Guide.API) with arguments (Guide.Application.CQRS.Query.ProductListQuery) - Validation state: Valid
+2019-02-12 10:05:26.1651|INFO|Guide.Application.CQRS.Query.ProductListQuery|RequestType: _ProductListQuery_02/12/2019 07:05:26
+2019-02-12 10:06:20.4905|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-12 10:06:20.5827|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 93.5877ms 200 
+2019-02-12 10:06:23.1496|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 72
+2019-02-12 10:06:23.2086|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 10:06:23.2935|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Get (Guide.API) with arguments (Guide.Application.CQRS.Query.ProductListQuery) - Validation state: Valid
+2019-02-12 10:06:23.3037|INFO|Guide.Application.CQRS.Query.ProductListQuery|RequestType: _ProductListQuery_02/12/2019 07:06:23
+2019-02-12 10:07:01.9408|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-12 10:07:02.0335|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 95.9438ms 200 
+2019-02-12 10:07:03.1682|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 72
+2019-02-12 10:07:03.2273|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 10:07:03.3133|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Get (Guide.API) with arguments (Guide.Application.CQRS.Query.ProductListQuery) - Validation state: Valid
+2019-02-12 10:07:03.3236|INFO|Guide.Application.CQRS.Query.ProductListQuery|RequestType: _ProductListQuery_02/12/2019 07:07:03
+2019-02-12 10:07:31.8158|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 72
+2019-02-12 10:07:31.9328|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 10:07:32.0060|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Get (Guide.API) with arguments (Guide.Application.CQRS.Query.ProductListQuery) - Validation state: Valid
+2019-02-12 10:07:32.0148|INFO|Guide.Application.CQRS.Query.ProductListQuery|RequestType: _ProductListQuery_02/12/2019 07:07:32
+2019-02-12 10:07:32.0545|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Guide.API.Controllers.ProductController.Get (Guide.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 43.0376ms.
+2019-02-12 10:07:32.0545|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Guide.Application.ViewModel.QueryResponses.Product.ProductView, Guide.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-02-12 10:07:32.0746|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Guide.API.Controllers.ProductController.Get (Guide.API) in 134.2398ms
+2019-02-12 10:07:32.0746|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 268.539ms 200 application/json; charset=utf-8
+2019-02-12 10:07:37.6525|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 72
+2019-02-12 10:07:37.6525|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 10:07:37.6525|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Get (Guide.API) with arguments (Guide.Application.CQRS.Query.ProductListQuery) - Validation state: Valid
+2019-02-12 10:07:37.6525|INFO|Guide.Application.CQRS.Query.ProductListQuery|RequestType: _ProductListQuery_02/12/2019 07:07:37
+2019-02-12 10:12:33.7000|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-12 10:12:33.7884|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 87.8559ms 200 
+2019-02-12 10:12:34.5317|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 72
+2019-02-12 10:12:34.6027|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 10:12:34.6867|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Get (Guide.API) with arguments (Guide.Application.CQRS.Query.ProductListQuery) - Validation state: Valid
+2019-02-12 10:12:34.6972|INFO|Guide.Application.CQRS.Query.ProductListQuery|RequestType: _ProductListQuery_02/12/2019 07:12:34
+2019-02-12 10:25:07.6809|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-12 10:25:07.7706|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 92.1083ms 200 
+2019-02-12 10:25:22.6093|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 72
+2019-02-12 10:25:22.6843|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 10:25:22.7679|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Get (Guide.API) with arguments (Guide.Application.CQRS.Query.ProductListQuery) - Validation state: Valid
+2019-02-12 10:25:22.7784|INFO|Guide.Application.CQRS.Query.ProductListQuery|RequestType: _ProductListQuery_02/12/2019 07:25:22
+2019-02-12 10:27:07.7733|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-12 10:27:07.8619|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 91.7073ms 200 
+2019-02-12 10:27:12.5978|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 72
+2019-02-12 10:27:12.6531|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 10:27:12.7381|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Get (Guide.API) with arguments (Guide.Application.CQRS.Query.ProductListQuery) - Validation state: Valid
+2019-02-12 10:27:12.7483|INFO|Guide.Application.CQRS.Query.ProductListQuery|RequestType: _ProductListQuery_02/12/2019 07:27:12
+2019-02-12 10:32:08.4558|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-12 10:32:08.5440|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 89.7949ms 200 
+2019-02-12 10:32:16.8198|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 72
+2019-02-12 10:32:16.8745|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 10:32:16.9552|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Get (Guide.API) with arguments (Guide.Application.CQRS.Query.ProductListQuery) - Validation state: Valid
+2019-02-12 10:32:16.9675|INFO|Guide.Application.CQRS.Query.ProductListQuery|RequestType: _ProductListQuery_02/12/2019 07:32:16
+2019-02-12 10:33:34.5728|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-12 10:33:34.6619|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 89.7577ms 200 
+2019-02-12 10:33:38.1178|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 72
+2019-02-12 10:33:38.1753|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 10:33:38.2566|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Get (Guide.API) with arguments (Guide.Application.CQRS.Query.ProductListQuery) - Validation state: Valid
+2019-02-12 10:33:38.2566|INFO|Guide.Application.CQRS.Query.ProductListQuery|RequestType: _ProductListQuery_02/12/2019 07:33:38
+2019-02-12 10:35:35.9751|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-12 10:35:36.0705|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 98.549ms 200 
+2019-02-12 10:35:36.4286|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 72
+2019-02-12 10:35:36.4887|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 10:35:36.5718|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Get (Guide.API) with arguments (Guide.Application.CQRS.Query.ProductListQuery) - Validation state: Valid
+2019-02-12 10:35:36.5818|INFO|Guide.Application.CQRS.Query.ProductListQuery|RequestType: _ProductListQuery_02/12/2019 07:35:36
+2019-02-12 10:37:10.2214|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-12 10:37:10.3080|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 89.8288ms 200 
+2019-02-12 10:37:11.3031|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 72
+2019-02-12 10:37:11.3637|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 10:37:11.4454|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Get (Guide.API) with arguments (Guide.Application.CQRS.Query.ProductListQuery) - Validation state: Valid
+2019-02-12 10:37:11.4557|INFO|Guide.Application.CQRS.Query.ProductListQuery|RequestType: _ProductListQuery_02/12/2019 07:37:11
+2019-02-12 10:37:33.5028|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-12 10:37:33.5959|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 96.53ms 200 
+2019-02-12 10:37:36.8666|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 72
+2019-02-12 10:37:36.9272|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 10:37:37.0100|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Get (Guide.API) with arguments (Guide.Application.CQRS.Query.ProductListQuery) - Validation state: Valid
+2019-02-12 10:37:37.0203|INFO|Guide.Application.CQRS.Query.ProductListQuery|RequestType: _ProductListQuery_02/12/2019 07:37:37
+2019-02-12 10:37:59.1031|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-12 10:37:59.1968|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 95.3823ms 200 
+2019-02-12 10:38:02.4103|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 72
+2019-02-12 10:38:02.4680|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 10:38:02.5554|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Get (Guide.API) with arguments (Guide.Application.CQRS.Query.ProductListQuery) - Validation state: Valid
+2019-02-12 10:38:02.5656|INFO|Guide.Application.CQRS.Query.ProductListQuery|RequestType: _ProductListQuery_02/12/2019 07:38:02
+2019-02-12 10:38:53.0218|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-12 10:38:53.1089|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 90.3044ms 200 
+2019-02-12 10:38:56.9673|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 72
+2019-02-12 10:38:57.0242|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 10:38:57.1082|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Get (Guide.API) with arguments (Guide.Application.CQRS.Query.ProductListQuery) - Validation state: Valid
+2019-02-12 10:38:57.1190|INFO|Guide.Application.CQRS.Query.ProductListQuery|RequestType: _ProductListQuery_02/12/2019 07:38:57
+2019-02-12 10:39:37.4940|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-12 10:39:37.5829|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 92.1871ms 200 
+2019-02-12 10:39:40.1426|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 72
+2019-02-12 10:39:40.2002|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 10:39:40.2808|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Get (Guide.API) with arguments (Guide.Application.CQRS.Query.ProductListQuery) - Validation state: Valid
+2019-02-12 10:39:40.2910|INFO|Guide.Application.CQRS.Query.ProductListQuery|RequestType: _ProductListQuery_02/12/2019 07:39:40
+2019-02-12 10:39:57.2071|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-12 10:39:57.2936|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 89.5992ms 200 
+2019-02-12 10:39:59.4971|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 72
+2019-02-12 10:39:59.5533|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 10:39:59.6395|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Get (Guide.API) with arguments (Guide.Application.CQRS.Query.ProductListQuery) - Validation state: Valid
+2019-02-12 10:39:59.6500|INFO|Guide.Application.CQRS.Query.ProductListQuery|RequestType: _ProductListQuery_02/12/2019 07:39:59
+2019-02-12 10:40:36.7494|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-12 10:40:36.8432|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 96.7974ms 200 
+2019-02-12 10:40:38.9866|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 72
+2019-02-12 10:40:39.0427|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 10:40:39.1241|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Get (Guide.API) with arguments (Guide.Application.CQRS.Query.ProductListQuery) - Validation state: Valid
+2019-02-12 10:40:39.1346|INFO|Guide.Application.CQRS.Query.ProductListQuery|RequestType: _ProductListQuery_02/12/2019 07:40:39
+2019-02-12 10:41:20.8072|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 72
+2019-02-12 10:41:20.8072|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-12 10:41:20.8990|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 92.1228ms 200 
+2019-02-12 10:41:20.9507|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 10:41:21.0324|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Get (Guide.API) with arguments (Guide.Application.CQRS.Query.ProductListQuery) - Validation state: Valid
+2019-02-12 10:41:21.0324|INFO|Guide.Application.CQRS.Query.ProductListQuery|RequestType: _ProductListQuery_02/12/2019 07:41:21
+2019-02-12 10:41:33.7056|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-12 10:41:33.7999|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 97.1424ms 200 
+2019-02-12 10:41:37.5792|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 72
+2019-02-12 10:41:37.6379|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 10:41:37.7224|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Get (Guide.API) with arguments (Guide.Application.CQRS.Query.ProductListQuery) - Validation state: Valid
+2019-02-12 10:41:37.7224|INFO|Guide.Application.CQRS.Query.ProductListQuery|RequestType: _ProductListQuery_02/12/2019 07:41:37
+2019-02-12 10:41:56.2600|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-12 10:41:56.3502|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 91.2578ms 200 
+2019-02-12 10:41:57.2442|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 72
+2019-02-12 10:41:57.3059|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 10:41:57.3879|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Get (Guide.API) with arguments (Guide.Application.CQRS.Query.ProductListQuery) - Validation state: Valid
+2019-02-12 10:41:57.3988|INFO|Guide.Application.CQRS.Query.ProductListQuery|RequestType: _ProductListQuery_02/12/2019 07:41:57
+2019-02-12 10:42:21.0399|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-12 10:42:21.1276|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 88.823ms 200 
+2019-02-12 10:42:21.3444|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 72
+2019-02-12 10:42:21.4093|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 10:42:21.4968|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Get (Guide.API) with arguments (Guide.Application.CQRS.Query.ProductListQuery) - Validation state: Valid
+2019-02-12 10:42:21.5067|INFO|Guide.Application.CQRS.Query.ProductListQuery|RequestType: _ProductListQuery_02/12/2019 07:42:21
+2019-02-12 10:42:36.7957|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-12 10:42:36.8816|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 88.9937ms 200 
+2019-02-12 10:42:37.3192|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 72
+2019-02-12 10:42:37.3804|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 10:42:37.4630|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Get (Guide.API) with arguments (Guide.Application.CQRS.Query.ProductListQuery) - Validation state: Valid
+2019-02-12 10:42:37.4729|INFO|Guide.Application.CQRS.Query.ProductListQuery|RequestType: _ProductListQuery_02/12/2019 07:42:37
+2019-02-12 10:43:00.4826|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-12 10:43:00.5724|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 92.6135ms 200 
+2019-02-12 10:43:02.4401|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 72
+2019-02-12 10:43:02.4965|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 10:43:02.5835|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Get (Guide.API) with arguments (Guide.Application.CQRS.Query.ProductListQuery) - Validation state: Valid
+2019-02-12 10:43:02.5938|INFO|Guide.Application.CQRS.Query.ProductListQuery|RequestType: _ProductListQuery_02/12/2019 07:43:02
+2019-02-12 10:43:32.5308|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-12 10:43:32.6262|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 96.5733ms 200 
+2019-02-12 10:43:32.6838|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 72
+2019-02-12 10:43:32.7422|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 10:43:32.8218|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Get (Guide.API) with arguments (Guide.Application.CQRS.Query.ProductListQuery) - Validation state: Valid
+2019-02-12 10:43:32.8320|INFO|Guide.Application.CQRS.Query.ProductListQuery|RequestType: _ProductListQuery_02/12/2019 07:43:32
+2019-02-12 10:44:13.0386|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-12 10:44:13.1286|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 92.7813ms 200 
+2019-02-12 10:44:14.9607|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 72
+2019-02-12 10:44:15.0196|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 10:44:15.1012|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Get (Guide.API) with arguments (Guide.Application.CQRS.Query.ProductListQuery) - Validation state: Valid
+2019-02-12 10:44:15.1117|INFO|Guide.Application.CQRS.Query.ProductListQuery|RequestType: _ProductListQuery_02/12/2019 07:44:15
+2019-02-12 10:44:47.5240|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 72
+2019-02-12 10:44:47.5240|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-12 10:44:47.6153|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 93.301ms 200 
+2019-02-12 10:44:47.6667|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 10:44:47.7474|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Get (Guide.API) with arguments (Guide.Application.CQRS.Query.ProductListQuery) - Validation state: Valid
+2019-02-12 10:44:47.7579|INFO|Guide.Application.CQRS.Query.ProductListQuery|RequestType: _ProductListQuery_02/12/2019 07:44:47
+2019-02-12 10:45:21.8548|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-12 10:45:21.9517|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 97.5301ms 200 
+2019-02-12 10:45:29.7128|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 72
+2019-02-12 10:45:29.7731|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 10:45:29.8538|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Get (Guide.API) with arguments (Guide.Application.CQRS.Query.ProductListQuery) - Validation state: Valid
+2019-02-12 10:45:29.8645|INFO|Guide.Application.CQRS.Query.ProductListQuery|RequestType: _ProductListQuery_02/12/2019 07:45:29
+2019-02-12 10:45:35.4445|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Guide.API.Controllers.ProductController.Get (Guide.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 5583.4577ms.
+2019-02-12 10:45:35.4552|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Guide.Application.ViewModel.QueryResponses.Product.ProductView, Guide.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-02-12 10:45:35.4677|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Guide.API.Controllers.ProductController.Get (Guide.API) in 5686.751ms
+2019-02-12 10:45:35.4677|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 5762.6011ms 200 application/json; charset=utf-8
+2019-02-12 10:45:38.2933|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 72
+2019-02-12 10:45:38.2976|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 10:45:38.2976|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Get (Guide.API) with arguments (Guide.Application.CQRS.Query.ProductListQuery) - Validation state: Valid
+2019-02-12 10:45:38.2976|INFO|Guide.Application.CQRS.Query.ProductListQuery|RequestType: _ProductListQuery_02/12/2019 07:45:38
+2019-02-12 10:45:52.7485|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-12 10:45:52.8381|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 92.799ms 200 
+2019-02-12 10:45:54.1907|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 72
+2019-02-12 10:45:54.2506|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 10:45:54.3354|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Get (Guide.API) with arguments (Guide.Application.CQRS.Query.ProductListQuery) - Validation state: Valid
+2019-02-12 10:45:54.3454|INFO|Guide.Application.CQRS.Query.ProductListQuery|RequestType: _ProductListQuery_02/12/2019 07:45:54
+2019-02-12 10:46:25.1414|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-12 10:46:25.2300|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 89.6112ms 200 
+2019-02-12 10:46:26.0281|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 72
+2019-02-12 10:46:26.0869|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 10:46:26.1744|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Get (Guide.API) with arguments (Guide.Application.CQRS.Query.ProductListQuery) - Validation state: Valid
+2019-02-12 10:46:26.1848|INFO|Guide.Application.CQRS.Query.ProductListQuery|RequestType: _ProductListQuery_02/12/2019 07:46:26
+2019-02-12 10:46:40.6546|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-12 10:46:40.7449|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 93.2501ms 200 
+2019-02-12 10:46:41.7791|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 72
+2019-02-12 10:46:41.8382|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 10:46:41.9190|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Get (Guide.API) with arguments (Guide.Application.CQRS.Query.ProductListQuery) - Validation state: Valid
+2019-02-12 10:46:41.9190|INFO|Guide.Application.CQRS.Query.ProductListQuery|RequestType: _ProductListQuery_02/12/2019 07:46:41
+2019-02-12 10:48:00.6236|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-12 10:48:00.7184|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 98.3656ms 200 
+2019-02-12 10:48:02.3800|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 72
+2019-02-12 10:48:02.4379|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 10:48:02.5203|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Get (Guide.API) with arguments (Guide.Application.CQRS.Query.ProductListQuery) - Validation state: Valid
+2019-02-12 10:48:02.5309|INFO|Guide.Application.CQRS.Query.ProductListQuery|RequestType: _ProductListQuery_02/12/2019 07:48:02
+2019-02-12 10:48:45.5107|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-12 10:48:45.5986|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 88.6304ms 200 
+2019-02-12 10:48:48.0937|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 70
+2019-02-12 10:48:48.1523|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 10:48:48.2339|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Get (Guide.API) with arguments (Guide.Application.CQRS.Query.ProductListQuery) - Validation state: Valid
+2019-02-12 10:48:48.2456|INFO|Guide.Application.CQRS.Query.ProductListQuery|RequestType: _ProductListQuery_02/12/2019 07:48:48
+2019-02-12 10:51:23.7437|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-12 10:51:23.8303|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 90.0293ms 200 
+2019-02-12 10:51:38.1963|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 94
+2019-02-12 10:51:38.2574|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 10:51:38.3387|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Get (Guide.API) with arguments (Guide.Application.CQRS.Query.ProductListQuery) - Validation state: Valid
+2019-02-12 10:51:38.3387|INFO|Guide.Application.CQRS.Query.ProductListQuery|RequestType: _ProductListQuery_02/12/2019 07:51:38
+2019-02-12 10:51:51.7259|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Guide.API.Controllers.ProductController.Get (Guide.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 13381.0074ms.
+2019-02-12 10:51:51.7348|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Guide.Application.ViewModel.QueryResponses.Product.ProductView, Guide.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-02-12 10:51:51.7486|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Guide.API.Controllers.ProductController.Get (Guide.API) in 13483.6482ms
+2019-02-12 10:51:51.7486|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 13560.6739ms 200 application/json; charset=utf-8
+2019-02-12 10:54:23.5880|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-12 10:54:23.6787|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 93.5283ms 200 
+2019-02-12 10:54:24.1398|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 94
+2019-02-12 10:54:24.2013|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 10:54:24.2832|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Get (Guide.API) with arguments (Guide.Application.CQRS.Query.ProductListQuery) - Validation state: Valid
+2019-02-12 10:54:24.2929|INFO|Guide.Application.CQRS.Query.ProductListQuery|RequestType: _ProductListQuery_02/12/2019 07:54:24
+2019-02-12 10:55:33.3993|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-12 10:55:33.4944|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 95.5157ms 200 
+2019-02-12 10:55:35.0897|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 94
+2019-02-12 10:55:35.1479|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 10:55:35.2319|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Get (Guide.API) with arguments (Guide.Application.CQRS.Query.ProductListQuery) - Validation state: Valid
+2019-02-12 10:55:35.2419|INFO|Guide.Application.CQRS.Query.ProductListQuery|RequestType: _ProductListQuery_02/12/2019 07:55:35
+2019-02-12 10:56:09.9489|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-12 10:56:10.0365|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 90.2973ms 200 
+2019-02-12 10:56:11.7963|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 94
+2019-02-12 10:56:11.8699|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 10:56:11.9519|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Get (Guide.API) with arguments (Guide.Application.CQRS.Query.ProductListQuery) - Validation state: Valid
+2019-02-12 10:56:11.9623|INFO|Guide.Application.CQRS.Query.ProductListQuery|RequestType: _ProductListQuery_02/12/2019 07:56:11
+2019-02-12 10:56:20.0484|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Guide.API.Controllers.ProductController.Get (Guide.API) in 8170.9585ms
+2019-02-12 10:56:20.0567|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 8259.647ms 404 application/json
+2019-02-12 10:56:43.8864|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-12 10:56:43.9773|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 93.9828ms 200 
+2019-02-12 10:56:47.1634|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 94
+2019-02-12 10:56:47.2221|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 10:56:47.3129|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Get (Guide.API) with arguments (Guide.Application.CQRS.Query.ProductListQuery) - Validation state: Valid
+2019-02-12 10:56:47.3226|INFO|Guide.Application.CQRS.Query.ProductListQuery|RequestType: _ProductListQuery_02/12/2019 07:56:47
+2019-02-12 10:56:54.8745|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Guide.API.Controllers.ProductController.Get (Guide.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 7555.2219ms.
+2019-02-12 10:56:54.8851|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Guide.Application.ViewModel.QueryResponses.Product.ProductView, Guide.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-02-12 10:56:54.8979|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Guide.API.Controllers.ProductController.Get (Guide.API) in 7665.6705ms
+2019-02-12 10:56:54.8979|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 7742.8253ms 200 application/json; charset=utf-8
+2019-02-12 10:57:27.0075|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-12 10:57:27.0965|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 92.2514ms 200 
+2019-02-12 10:57:27.6459|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 94
+2019-02-12 10:57:27.7073|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 10:57:27.7924|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Get (Guide.API) with arguments (Guide.Application.CQRS.Query.ProductListQuery) - Validation state: Valid
+2019-02-12 10:57:27.8029|INFO|Guide.Application.CQRS.Query.ProductListQuery|RequestType: _ProductListQuery_02/12/2019 07:57:27
+2019-02-12 10:57:32.1465|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Guide.API.Controllers.ProductController.Get (Guide.API) in 4431.5951ms
+2019-02-12 10:57:32.1465|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4510.557ms 404 application/json
+2019-02-12 10:58:31.8522|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-12 10:58:31.9400|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 91.059ms 200 
+2019-02-12 10:58:33.5783|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 94
+2019-02-12 10:58:33.6380|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 10:58:33.7227|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Get (Guide.API) with arguments (Guide.Application.CQRS.Query.ProductListQuery) - Validation state: Valid
+2019-02-12 10:58:33.7336|INFO|Guide.Application.CQRS.Query.ProductListQuery|RequestType: _ProductListQuery_02/12/2019 07:58:33
+2019-02-12 11:00:27.8691|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-12 11:00:27.9560|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 90.0345ms 200 
+2019-02-12 11:00:30.1650|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 94
+2019-02-12 11:00:30.2260|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 11:00:30.3123|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Get (Guide.API) with arguments (Guide.Application.CQRS.Query.ProductListQuery) - Validation state: Valid
+2019-02-12 11:00:30.3225|INFO|Guide.Application.CQRS.Query.ProductListQuery|RequestType: _ProductListQuery_02/12/2019 08:00:30
+2019-02-12 11:03:49.1179|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-12 11:03:49.2127|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 96.4911ms 200 
+2019-02-12 11:03:51.7929|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 94
+2019-02-12 11:03:51.8510|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 11:03:51.9343|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Get (Guide.API) with arguments (Guide.Application.CQRS.Query.ProductListQuery) - Validation state: Valid
+2019-02-12 11:03:51.9449|INFO|Guide.Application.CQRS.Query.ProductListQuery|RequestType: _ProductListQuery_02/12/2019 08:03:51
+2019-02-12 11:04:19.2605|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-12 11:04:19.3502|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 92.5717ms 200 
+2019-02-12 11:04:21.2624|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 94
+2019-02-12 11:04:21.3224|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 11:04:21.4079|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Get (Guide.API) with arguments (Guide.Application.CQRS.Query.ProductListQuery) - Validation state: Valid
+2019-02-12 11:04:21.4197|INFO|Guide.Application.CQRS.Query.ProductListQuery|RequestType: _ProductListQuery_02/12/2019 08:04:21
+2019-02-12 11:04:24.2715|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.4-rtm-31024 initialized 'GuideContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-02-12 11:04:24.3205|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Code], [p].[CreatedOn], [p].[ModifiedOn], [p].[Name], [p].[StockAmount]
+FROM [ProductListView] AS [p]
+2019-02-12 11:04:37.5496|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-12 11:04:37.6402|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 91.9988ms 200 
+2019-02-12 11:04:38.3827|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 94
+2019-02-12 11:04:38.4414|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 11:04:38.5249|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Get (Guide.API) with arguments (Guide.Application.CQRS.Query.ProductListQuery) - Validation state: Valid
+2019-02-12 11:04:38.5350|INFO|Guide.Application.CQRS.Query.ProductListQuery|RequestType: _ProductListQuery_02/12/2019 08:04:38
+2019-02-12 11:04:42.0272|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.4-rtm-31024 initialized 'GuideContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-02-12 11:04:42.0747|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Code], [p].[CreatedOn], [p].[ModifiedOn], [p].[Name], [p].[StockAmount]
+FROM [ProductListView] AS [p]
+2019-02-12 11:05:05.1079|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-12 11:05:05.1079|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 94
+2019-02-12 11:05:05.2333|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 126.0958ms 200 
+2019-02-12 11:05:05.2888|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 11:05:05.3781|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Get (Guide.API) with arguments (Guide.Application.CQRS.Query.ProductListQuery) - Validation state: Valid
+2019-02-12 11:05:05.3781|INFO|Guide.Application.CQRS.Query.ProductListQuery|RequestType: _ProductListQuery_02/12/2019 08:05:05
+2019-02-12 11:05:07.1601|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.4-rtm-31024 initialized 'GuideContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-02-12 11:05:07.2073|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Code], [p].[CreatedOn], [p].[ModifiedOn], [p].[Name], [p].[StockAmount]
+FROM [ProductListView] AS [p]
+2019-02-12 11:05:42.9048|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Guide.API.Controllers.ProductController.Get (Guide.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 37520.541ms.
+2019-02-12 11:05:42.9171|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Guide.Application.ViewModel.QueryResponses.Product.ProductView, Guide.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-02-12 11:05:42.9334|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Guide.API.Controllers.ProductController.Get (Guide.API) in 37637.8794ms
+2019-02-12 11:05:42.9403|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 37838.0472ms 200 application/json; charset=utf-8
+2019-02-12 11:05:46.4117|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 94
+2019-02-12 11:05:46.4117|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 11:05:46.4234|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Get (Guide.API) with arguments (Guide.Application.CQRS.Query.ProductListQuery) - Validation state: Valid
+2019-02-12 11:05:46.4234|INFO|Guide.Application.CQRS.Query.ProductListQuery|RequestType: _ProductListQuery_02/12/2019 08:05:46
+2019-02-12 11:05:48.1889|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.4-rtm-31024 initialized 'GuideContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-02-12 11:05:48.1931|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Code], [p].[CreatedOn], [p].[ModifiedOn], [p].[Name], [p].[StockAmount]
+FROM [ProductListView] AS [p]
+2019-02-12 11:05:50.7113|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Guide.API.Controllers.ProductController.Get (Guide.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 4284.9597ms.
+2019-02-12 11:05:50.7113|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Guide.Application.ViewModel.QueryResponses.Product.ProductView, Guide.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-02-12 11:05:50.7213|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Guide.API.Controllers.ProductController.Get (Guide.API) in 4303.3684ms
+2019-02-12 11:05:50.7213|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4314.9052ms 200 application/json; charset=utf-8
+2019-02-12 11:19:19.1751|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-12 11:19:19.2637|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 91.5144ms 200 
+2019-02-12 11:19:22.7451|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 94
+2019-02-12 11:19:22.8011|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 11:19:22.8863|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Get (Guide.API) with arguments (Guide.Application.CQRS.Query.ProductListQuery) - Validation state: Valid
+2019-02-12 11:19:22.8863|INFO|Guide.Application.CQRS.Query.ProductListQuery|RequestType: _ProductListQuery_02/12/2019 08:19:22
+2019-02-12 11:19:27.5917|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.4-rtm-31024 initialized 'GuideContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-02-12 11:19:27.6404|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Code], [p].[CreatedOn], [p].[ModifiedOn], [p].[Name], [p].[StockAmount]
+FROM [ProductListView] AS [p]
+2019-02-12 11:19:28.9024|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Guide.API.Controllers.ProductController.Get (Guide.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 6007.3941ms.
+2019-02-12 11:19:28.9024|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Guide.Application.ViewModel.QueryResponses.Product.ProductView, Guide.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-02-12 11:19:28.9263|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Guide.API.Controllers.ProductController.Get (Guide.API) in 6117.5366ms
+2019-02-12 11:19:28.9346|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 6189.7808ms 200 application/json; charset=utf-8
+2019-02-12 12:15:13.3802|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-12 12:15:13.4661|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 89.3122ms 200 
+2019-02-12 12:15:22.7789|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 94
+2019-02-12 12:15:22.8367|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 12:15:22.9247|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Get (Guide.API) with arguments (Guide.Application.CQRS.Query.ProductListQuery) - Validation state: Valid
+2019-02-12 12:15:24.9553|INFO|Guide.Application.CQRS.Query.ProductListQuery|RequestType: _ProductListQuery_02/12/2019 09:15:24
+2019-02-12 12:15:30.2178|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.4-rtm-31024 initialized 'GuideContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-02-12 12:15:30.2681|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Code], [p].[CreatedOn], [p].[ModifiedOn], [p].[Name], [p].[StockAmount]
+FROM [ProductListView] AS [p]
+2019-02-12 12:15:38.3605|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Guide.API.Controllers.ProductController.Get (Guide.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 15428.4713ms.
+2019-02-12 12:15:38.3719|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Guide.Application.ViewModel.QueryResponses.Product.ProductView, Guide.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-02-12 12:15:38.3846|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Guide.API.Controllers.ProductController.Get (Guide.API) in 15540.7303ms
+2019-02-12 12:15:38.3846|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 15613.3045ms 200 application/json; charset=utf-8
+2019-02-12 12:15:56.5479|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:58421/api/products/ application/json 97
+2019-02-12 12:15:56.5559|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Post", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Post (Guide.API)
+2019-02-12 12:15:56.5644|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Post (Guide.API) with arguments (Guide.Application.CQRS.Command.ProductCreateCommand) - Validation state: Valid
+2019-02-12 12:15:58.3987|INFO|Guide.Application.CQRS.Command.ProductCreateCommand|RequestType: _ProductCreateCommand_02/12/2019 09:15:58
+2019-02-12 12:16:01.4087|ERROR|Guide.Application.ExceptionHandling.GlobalExceptionHandler|Stok miktarı 0'dan büyük olmalıdır!
+2019-02-12 12:16:01.4087|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Guide.API.Controllers.ProductController.Post (Guide.API) in 4853.3069ms
+2019-02-12 12:16:01.4087|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4872.0216ms 500 application/json
+2019-02-12 12:16:05.9021|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:58421/api/products/ application/json 97
+2019-02-12 12:16:05.9021|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Post", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Post (Guide.API)
+2019-02-12 12:16:05.9125|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Post (Guide.API) with arguments (Guide.Application.CQRS.Command.ProductCreateCommand) - Validation state: Valid
+2019-02-12 12:17:13.0486|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-12 12:17:13.1355|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 88.2444ms 200 
+2019-02-12 12:17:16.7918|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:58421/api/products/ application/json 97
+2019-02-12 12:17:16.8504|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Post", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Post (Guide.API)
+2019-02-12 12:17:16.9355|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Post (Guide.API) with arguments (Guide.Application.CQRS.Command.ProductCreateCommand) - Validation state: Valid
+2019-02-12 12:17:18.3326|INFO|Guide.Application.CQRS.Command.ProductCreateCommand|RequestType: _ProductCreateCommand_02/12/2019 09:17:18
+2019-02-12 12:17:18.4762|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.4-rtm-31024 initialized 'GuideContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-02-12 12:17:18.5365|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = Int32), @p2='?' (DbType = DateTime2), @p3='?' (DbType = Int32), @p4='?' (DbType = DateTime2), @p5='?' (Size = 4000), @p6='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Products] ([Code], [CreatedBy], [CreatedOn], [ModifiedBy], [ModifiedOn], [Name], [StockAmount])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+SELECT [Id]
+FROM [Products]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2019-02-12 12:17:20.7707|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Guide.API.Controllers.ProductController.Post (Guide.API), returned result Microsoft.AspNetCore.Mvc.CreatedAtRouteResult in 3828.7903ms.
+2019-02-12 12:17:20.7707|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'Guide.Application.ViewModel.CommandResponses.Product.ProductCreateView'.
+2019-02-12 12:17:20.7954|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Guide.API.Controllers.ProductController.Post (Guide.API) in 3936.7513ms
+2019-02-12 12:17:20.8026|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4010.9161ms 201 application/json; charset=utf-8
+2019-02-12 16:25:58.0951|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-12 16:25:58.1879|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 95.7293ms 200 
+2019-02-12 16:28:27.4758|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-12 16:28:27.5679|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 95.1149ms 200 
+2019-02-12 16:28:39.5439|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/  
+2019-02-12 16:28:39.5996|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 16:28:39.6482|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 415
+2019-02-12 16:28:39.6482|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Guide.API.Controllers.ProductController.Get (Guide.API) in 48.2304ms
+2019-02-12 16:28:39.6634|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 119.2094ms 415 text/plain
+2019-02-12 16:28:56.1690|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 97
+2019-02-12 16:28:56.1741|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 16:28:56.2711|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Get (Guide.API) with arguments (Guide.Application.CQRS.Query.ProductListQuery) - Validation state: Valid
+2019-02-12 16:28:59.0226|INFO|Guide.Application.CQRS.Query.ProductListQuery|RequestType: _ProductListQuery_02/12/2019 13:28:59
+2019-02-12 16:29:59.8017|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-12 16:29:59.8923|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 91.348ms 200 
+2019-02-12 16:30:00.6210|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 97
+2019-02-12 16:30:00.6781|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 16:30:00.8134|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Get (Guide.API) with arguments (Guide.Application.CQRS.Query.ProductListQuery) - Validation state: Valid
+2019-02-12 16:30:02.2179|INFO|Guide.Application.CQRS.Query.ProductListQuery|RequestType: _ProductListQuery_02/12/2019 13:30:02
+2019-02-12 16:30:02.3639|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.4-rtm-31024 initialized 'GuideContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-02-12 16:30:02.4138|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Code], [p].[CreatedOn], [p].[ModifiedOn], [p].[Name], [p].[StockAmount]
+FROM [ProductListView] AS [p]
+2019-02-12 16:30:02.4404|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Guide.API.Controllers.ProductController.Get (Guide.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1620.2284ms.
+2019-02-12 16:30:02.4404|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Guide.Application.ViewModel.QueryResponses.Product.ProductView, Guide.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-02-12 16:30:02.4866|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Guide.API.Controllers.ProductController.Get (Guide.API) in 1801.1951ms
+2019-02-12 16:30:02.4866|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1871.0471ms 200 application/json; charset=utf-8
+2019-02-12 16:30:17.9734|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 46
+2019-02-12 16:30:17.9734|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 16:30:17.9734|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Get (Guide.API) with arguments (Guide.Application.CQRS.Query.ProductListQuery) - Validation state: Valid
+2019-02-12 16:30:19.2811|INFO|Guide.Application.CQRS.Query.ProductListQuery|RequestType: _ProductListQuery_02/12/2019 13:30:19
+2019-02-12 16:30:19.2873|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.4-rtm-31024 initialized 'GuideContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-02-12 16:30:19.2873|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Code], [p].[CreatedOn], [p].[ModifiedOn], [p].[Name], [p].[StockAmount]
+FROM [ProductListView] AS [p]
+2019-02-12 16:30:19.2873|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Guide.API.Controllers.ProductController.Get (Guide.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1308.0185ms.
+2019-02-12 16:30:19.2873|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Guide.Application.ViewModel.QueryResponses.Product.ProductView, Guide.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-02-12 16:30:19.2999|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Guide.API.Controllers.ProductController.Get (Guide.API) in 1319.0675ms
+2019-02-12 16:30:19.2999|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1329.7698ms 200 application/json; charset=utf-8
+2019-02-12 16:30:23.9788|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 21
+2019-02-12 16:30:23.9788|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 16:30:23.9788|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Get (Guide.API) with arguments (Guide.Application.CQRS.Query.ProductListQuery) - Validation state: Valid
+2019-02-12 16:30:25.0628|INFO|Guide.Application.CQRS.Query.ProductListQuery|RequestType: _ProductListQuery_02/12/2019 13:30:25
+2019-02-12 16:30:25.0664|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.4-rtm-31024 initialized 'GuideContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-02-12 16:30:25.0664|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Code], [p].[CreatedOn], [p].[ModifiedOn], [p].[Name], [p].[StockAmount]
+FROM [ProductListView] AS [p]
+2019-02-12 16:30:25.0664|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Guide.API.Controllers.ProductController.Get (Guide.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1084.4613ms.
+2019-02-12 16:30:25.0664|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Guide.Application.ViewModel.QueryResponses.Product.ProductView, Guide.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-02-12 16:30:25.0664|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Guide.API.Controllers.ProductController.Get (Guide.API) in 1092.1886ms
+2019-02-12 16:30:25.0664|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1100.3487ms 200 application/json; charset=utf-8
+2019-02-12 16:30:48.9917|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:58421/  0
+2019-02-12 16:30:49.0813|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 89.8669ms 200 
+2019-02-12 16:30:53.6295|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 72
+2019-02-12 16:30:53.6858|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 16:30:53.8183|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Get (Guide.API) with arguments (Guide.Application.CQRS.Query.ProductListQuery) - Validation state: Valid
+2019-02-12 16:30:55.3339|INFO|Guide.Application.CQRS.Query.ProductListQuery|RequestType: _ProductListQuery_02/12/2019 13:30:55
+2019-02-12 16:30:55.4865|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.4-rtm-31024 initialized 'GuideContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-02-12 16:30:55.5375|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Code], [p].[CreatedOn], [p].[ModifiedOn], [p].[Name], [p].[StockAmount]
+FROM [ProductListView] AS [p]
+2019-02-12 16:30:55.5653|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Guide.API.Controllers.ProductController.Get (Guide.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1739.8819ms.
+2019-02-12 16:30:55.5653|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Guide.Application.ViewModel.QueryResponses.Product.ProductView, Guide.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-02-12 16:30:55.6032|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Guide.API.Controllers.ProductController.Get (Guide.API) in 1909.7803ms
+2019-02-12 16:30:55.6032|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1978.6131ms 200 application/json; charset=utf-8
+2019-02-12 16:31:16.6920|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 91
+2019-02-12 16:31:16.6920|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 16:31:16.7076|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.SerializableError'.
+2019-02-12 16:31:16.7219|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Guide.API.Controllers.ProductController.Get (Guide.API) in 19.1283ms
+2019-02-12 16:31:16.7219|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 33.3218ms 400 application/json; charset=utf-8
+2019-02-12 16:31:21.2973|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:58421/api/products/ application/json 92
+2019-02-12 16:31:21.3008|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Product"}. Executing action Guide.API.Controllers.ProductController.Get (Guide.API)
+2019-02-12 16:31:21.3008|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Guide.API.Controllers.ProductController.Get (Guide.API) with arguments (Guide.Application.CQRS.Query.ProductListQuery) - Validation state: Valid
+2019-02-12 16:31:22.3359|INFO|Guide.Application.CQRS.Query.ProductListQuery|RequestType: _ProductListQuery_02/12/2019 13:31:22
+2019-02-12 16:31:22.3359|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.1.4-rtm-31024 initialized 'GuideContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-02-12 16:31:22.3471|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Code], [p].[CreatedOn], [p].[ModifiedOn], [p].[Name], [p].[StockAmount]
+FROM [ProductListView] AS [p]
+2019-02-12 16:31:22.3471|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method Guide.API.Controllers.ProductController.Get (Guide.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1044.8071ms.
+2019-02-12 16:31:22.3471|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Guide.Application.ViewModel.QueryResponses.Product.ProductView, Guide.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-02-12 16:31:22.3623|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Guide.API.Controllers.ProductController.Get (Guide.API) in 1058.4064ms
+2019-02-12 16:31:22.3623|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1068.1754ms 200 application/json; charset=utf-8

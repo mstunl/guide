@@ -1,0 +1,6 @@
+C:\MyProjects\Guide\Guide.InjectionFramework\bin\Debug\netcoreapp2.1\Guide.InjectionFramework.deps.json
+C:\MyProjects\Guide\Guide.InjectionFramework\bin\Debug\netcoreapp2.1\Guide.InjectionFramework.dll
+C:\MyProjects\Guide\Guide.InjectionFramework\obj\Debug\netcoreapp2.1\Guide.InjectionFramework.csprojAssemblyReference.cache
+C:\MyProjects\Guide\Guide.InjectionFramework\obj\Debug\netcoreapp2.1\Guide.InjectionFramework.csproj.CoreCompileInputs.cache
+C:\MyProjects\Guide\Guide.InjectionFramework\obj\Debug\netcoreapp2.1\Guide.InjectionFramework.AssemblyInfoInputs.cache
+C:\MyProjects\Guide\Guide.InjectionFramework\obj\Debug\netcoreapp2.1\Guide.InjectionFramework.AssemblyInfo.cs

@@ -1,0 +1,16 @@
+C:\MyProjects\Guide\Guide.Infrastructure.Messaging\bin\Debug\netcoreapp2.1\Guide.Infrastructure.Messaging.deps.json
+C:\MyProjects\Guide\Guide.Infrastructure.Messaging\bin\Debug\netcoreapp2.1\Guide.Infrastructure.Messaging.dll
+C:\MyProjects\Guide\Guide.Infrastructure.Messaging\obj\Debug\netcoreapp2.1\Guide.Infrastructure.Messaging.csproj.CoreCompileInputs.cache
+C:\MyProjects\Guide\Guide.Infrastructure.Messaging\obj\Debug\netcoreapp2.1\Guide.Infrastructure.Messaging.AssemblyInfoInputs.cache
+C:\MyProjects\Guide\Guide.Infrastructure.Messaging\obj\Debug\netcoreapp2.1\Guide.Infrastructure.Messaging.AssemblyInfo.cs
+C:\MyProjects\Guide\Guide.Infrastructure.Messaging\bin\Debug\netcoreapp2.1\Guide.Common.dll
+C:\MyProjects\Guide\Guide.Infrastructure.Messaging\bin\Debug\netcoreapp2.1\Guide.Core.dll
+C:\MyProjects\Guide\Guide.Infrastructure.Messaging\bin\Debug\netcoreapp2.1\Microsoft.Extensions.Identity.Stores.dll
+C:\MyProjects\Guide\Guide.Infrastructure.Messaging\bin\Debug\netcoreapp2.1\Guide.Common.pdb
+C:\MyProjects\Guide\Guide.Infrastructure.Messaging\bin\Debug\netcoreapp2.1\Guide.Core.pdb
+C:\MyProjects\Guide\Guide.Infrastructure.Messaging\bin\Debug\netcoreapp2.1\Microsoft.Extensions.Identity.Stores.xml
+C:\MyProjects\Guide\Guide.Infrastructure.Messaging\obj\Debug\netcoreapp2.1\Guide.Infrastructure.Messaging.csproj.CopyComplete
+C:\MyProjects\Guide\Guide.Infrastructure.Messaging\bin\Debug\netcoreapp2.1\Guide.Infrastructure.Messaging.pdb
+C:\MyProjects\Guide\Guide.Infrastructure.Messaging\obj\Debug\netcoreapp2.1\Guide.Infrastructure.Messaging.csprojAssemblyReference.cache
+C:\MyProjects\Guide\Guide.Infrastructure.Messaging\obj\Debug\netcoreapp2.1\Guide.Infrastructure.Messaging.dll
+C:\MyProjects\Guide\Guide.Infrastructure.Messaging\obj\Debug\netcoreapp2.1\Guide.Infrastructure.Messaging.pdb
